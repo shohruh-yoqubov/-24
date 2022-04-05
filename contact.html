@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NAMANGAN24</title>
+  <title>KONTAKT 24</title>
 
   <!-- google-fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -78,29 +78,46 @@
   <!-- MAIN-CONTENT -->
   <main class="main-content">
     <div class="container">
-      <div>
-        <form class="-from" action="#" method="GET">
-          <input class="-from-input" type="search" name="search" placeholder="имя" aria-label="имя" required>
-        </form>
-      </div>
-      <div>
-        <form class="-from" action="#" method="GET">
-          <input class="-from-input" type="search" name="search" placeholder="имя" aria-label="имя" required>
-        </form>
-      </div>
-      <div>
-        <form class="-from" action="#" method="GET">
-          <input class="-from-input" type="search" name="search" placeholder="имя" aria-label="имя" required>
-        </form>
-      </div>
-      <div>
-        <form class="-from" action="#" method="GET">
-          <input class="-from-input" type="search" name="search" placeholder="имя" aria-label="имя" required>
-        </form>
-      </div>
-      <div>
-        <textarea name="text">
-        </textarea>
+      <div class="contact-page">
+        <h1 class="contact-page-heading">Напишите нам</h1>
+
+        <div class="contact-page-content">
+          <form class="contact-page-form form" actions="https://echo.htmlacademy.ru" method="post">
+            <div class="form-fields">
+              <div class="form-groups-wrapper">
+                <div class="form-group">
+                  <input class="form-field" type="text" name="name" placeholder="имя" aria-label="имя" required>
+                </div>
+                <div class="form-group">
+                  <input class="form-field" type="tel" name="phone_number" placeholder="Номер телефона" aria-label="Номер телефона" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input class="form-field" type="email" name="email" placeholder="Электронная почта" aria-label="Электронная почта" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-field form-field-text" name="message" placeholder="Текст"></textarea>
+              </div>
+            </div>
+            <button class="contact-page-form-submit button button-primary" type="subamit">Отправить</button>
+          </form>
+          <div class="contact-page-info">
+            <dl class="contact-page-definitions-card definitions-card">
+              <div class="definitions-card-item">
+                <dt class="definitios-card-title">Электронная почта</dt>
+                <dd class="definitios-card-value">info@namanganliklar24.uz</dd>
+              </div>
+              <div class="definitions-card-item">
+                <dt class="definitios-card-title">Номер телефона</dt>
+                <dd class="definitios-card-value">+998 88 522-54-76</dd>
+              </div>
+              <div class="definitions-card-item">
+                <dt class="definitios-card-title">Адрес</dt>
+                <dd class="definitios-card-value">Ташкент, площадь Мустакиллик, 6 </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
       </div>
     </div>
   </main>

@@ -188,10 +188,19 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #d1d1d1;
-  margin-bottom: 40px;
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
+}
+
+
+.sitenav:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+
+.sitenav:not(:last-child) {
+  margin-bottom: 40px;
 }
 
 
@@ -573,13 +582,6 @@ img {
   border-radius: 15px;
 }
 
-.new-list-sidebar-ad-img {
-  width: 393px;
-  height: 553px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
 
 .site-footer {
   background-color:  #7297ef;
@@ -706,4 +708,122 @@ img {
   line-height: 23px;
   font-size: 18px;
   color: #fff;
+}
+
+
+/* FORM */
+
+
+.form-groups-wrapper {
+  justify-content: space-between;
+  display: flex;
+}
+
+
+.form-groups-wrapper:not(:last-child){
+  margin-bottom: 10px;
+}
+
+
+
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+
+.form-field-text {
+  min-height: 180px;
+  resize: vertical;
+}
+
+
+.form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+
+.form-groups-wrapper .form-group {
+  width: calc(50% - 5px);
+  margin-bottom: 0;
+}
+
+
+/* CONTACT-PAGE */
+
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+}
+
+
+.contact-page-form-submit {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+
+.contact-page-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight:500;
+  color: #000;
+}
+
+
+
+.contact-page-content {
+  display: flex;
+}
+
+
+/* CONTACT-PAGE-INFO */
+
+
+.contact-page-info {
+  width: 494px;
+  margin-left: 10px;
+}
+
+
+.definitions-card {
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin: 0;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+
+.definitions-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.definitions-card-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+
+.definitios-card-title {
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+
+.definitios-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
 }
